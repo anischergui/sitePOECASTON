@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<link href="css/stile.css" rel="stylesheet" type="text/css" media="all" />
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#pacman").hide();
+    });
+});
+
+
+$(document).ready(function(){
+    
+    $("#show").click(function(){
+        $("#image").show();
+    });
+});
+
+
+</script>
+</head>
+<body>
+<div id="pacman">
+	
+</div>
+<h1 class="titre">Tutorial Jquery By Aston Poec 2016</h1>
+<h2>exercice numero 1:  disparaition</h2>
+<p>Supprimer mon Pacman ==></p>
+<button id="hide">Tester exercie1</button>
+<button id="show">Visualiser code</button>
+<input type="button" name="lien1" value="Exercice Suivant" onclick="self.location.href='pageexercice2.html'" style="background-color:#3cb371" style="color:white; font-weight:bold"onclick> 
+
+
+<img id="image" src="images/exercice11.png">
+
+
+
+</body>
+</html>

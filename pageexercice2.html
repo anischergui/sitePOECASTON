@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<link href="css/stile.css" rel="stylesheet" type="text/css" media="all" />
+
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideDown("slow");
+    });
+});
+
+
+$(document).ready(function(){
+    
+    $("#show2").click(function(){
+        $("#image").show();
+    });
+});
+
+
+</script>
+ 
+<style> 
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}
+</style>
+</head>
+<body>
+ <h1 class="titre">Tutorial Jquery By Aston Poec 2016</h1>
+<div id="flip">Click to slide down panel</div>
+<div id="panel">Bienvenu A Notre Tutorial</div>
+<h2>exercice numero 2:  Effet slide</h2>
+<p>Cliquer sur la zone verte ==></p>
+<button id="show2">Visualiser code</button>
+<img id="image" src="images/exercice2.png">
+<input type="button" name="lien1" value="Exercice Suivant" onclick="self.location.href='pageexercice3.html'" style="background-color:#3cb371" style="color:white; font-weight:bold"onclick> 
+</body>
+</html>
+
+
+
+
+

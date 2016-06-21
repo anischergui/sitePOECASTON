@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<link href="css/stile.css" rel="stylesheet" type="text/css" media="all" />
+<script>
+$(document).ready(function(){
+    $("#anim").click(function(){
+        var txt = "";
+        txt += "Document width/height: " + $(document).width();
+        txt += "x" + $(document).height() + "\n";
+        txt += "Window width/height: " + $(window).width();
+        txt += "x" + $(window).height();
+        alert(txt);
+    });
+});
+</script>
+
+
+
+</head>
+<body>
+
+<button id="anim">Tester exercie1</button>
+<button id="show">Visualiser code</button>
+<input type="button" name="lien1" value="Exercice Suivant" onclick="self.location.href='exercicepage4.html'" style="background-color:#3cb371" style="color:white; font-weight:bold"onclick> 
+
+
+
+
+
+
+</body>
+</html>
